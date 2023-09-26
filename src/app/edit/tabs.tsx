@@ -4,6 +4,9 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { CldImage } from "next-cloudinary";
 
 export function TabsDemo({ src }: { src: string }) {
+  const blurSrc = `${src}:e_blur:100`;  // add transformation to the src for blur effect
+  const grayScaleSrc = `${src}:e_grayscale`;  // add transformation to the src for grayscale effect
+
   return (
     <Tabs defaultValue="Original" className="w-full px-5 py-4 ">
       <TabsList
@@ -52,10 +55,10 @@ export function TabsDemo({ src }: { src: string }) {
             className="rounded-sm "
             width="250"
             height="210"
-            src={src}
+            src={blurSrc}  // use the blurSrc here
             sizes="100vw"
             alt="Description of my image"
-            blur={800}  //just type error
+            
           />
         </div>
       </TabsContent>
@@ -74,10 +77,10 @@ export function TabsDemo({ src }: { src: string }) {
             className="rounded-sm "
             width="250"
             height="210"
-            src={src}
+            src={grayScaleSrc}  // use the grayScaleSrc here
             sizes="100vw"
             alt="Description of my image"
-            grayscale={true}   //just type error
+            
           />
         </div>
       </TabsContent>
