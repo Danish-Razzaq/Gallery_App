@@ -1,34 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Gallery App
+
+This project is a gallery app built with Next.js and Cloudinary. It showcases images stored in Cloudinary, and is styled with Shadcn UI, Material UI, and Tailwind CSS.
+
+## Technologies Used
+
+- [Next.js](https://nextjs.org/)
+- [Cloudinary](https://cloudinary.com/)
+- [Shadcn UI](https://shadcn-ui.com/) (Note: ensure this is the correct URL, as it may not be a real library)
+- [Material UI](https://mui.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+## Technologies Used
+
+- **Next.js**: The React framework used for building the application.
+- **Cloudinary**: Cloud service used for image uploading, optimization, and delivery.
+- **Shadcn UI**: UI library used for building interactive UI components.
+- **Material UI**: React UI framework used for designing UI components.
+- **Tailwind CSS**: A utility-first CSS framework used for styling the application.
 
 ## Getting Started
 
-First, run the development server:
+To get started with this project, follow the steps below:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/Danish-Razzaq/Gallery_App.git
+    cd nextjs-gallery-app
+    ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Install dependencies**:
+    ```bash
+    npm install
+    ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. **Set up environment variables**:
+   Create a `.env.local` file in the root of your project and add the following:
+    ```bash
+    CLOUDINARY_URL=your_cloudinary_url
+    ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+4. **Run the development server**:
+    ```bash
+    npm run dev
+    ```
 
-## Learn More
+   Open [http://Gallery-APP](https://gallery-app-roan-ten.vercel.app/) with your browser to see the result.
 
-To learn more about Next.js, take a look at the following resources:
+## Available Scripts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+In the project directory, you can run:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- `npm run dev`: Runs the app in development mode.
+- `npm run build`: Builds the app for production.
+- `npm start`: Runs the built app in production mode.
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+If you would like to contribute to the project, please fork the repository, create a feature branch, and open a Pull Request.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+
+This project is open-source and available under the MIT License.
