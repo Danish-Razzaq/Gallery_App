@@ -6,10 +6,11 @@ This project is a gallery app built with Next.js and Cloudinary. It showcases im
 
 - [Next.js](https://nextjs.org/)
 - [Cloudinary](https://cloudinary.com/)
-- [Shadcn UI](https://shadcn-ui.com/) (Note: ensure this is the correct URL, as it may not be a real library)
+- [Shadcn UI](https://ui.shadcn.com/)
 - [Material UI](https://mui.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
-
+- [React](https://react.dev/)
+  
 ## Technologies Used
 
 - **Next.js**: The React framework used for building the application.
