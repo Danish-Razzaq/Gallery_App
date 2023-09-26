@@ -28,7 +28,7 @@ const SideBar = () => {
                 Gallery
               </Button>
             </Link>
-            <Link href={'/album'}>
+            <Link href="/album">
             <Button variant="ghost" className="w-full max-lg:text-white justify-start lg:text-lg  font-bold ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +47,7 @@ const SideBar = () => {
               Albums
             </Button>
             </Link>
-            <Link href={'/favorite'}>
+            <Link href="/favorite">
             <Button variant="ghost" className="w-full max-lg:text-white  justify-start lg:text-lg  font-bold  ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
